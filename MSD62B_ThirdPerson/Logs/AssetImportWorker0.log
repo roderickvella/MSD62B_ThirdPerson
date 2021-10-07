@@ -708,3 +708,255 @@ Received Import Request.
   path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE
   artifactKey: Guid(6d8ecea2b58ec4718933dd6511502125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE using Guid(6d8ecea2b58ec4718933dd6511502125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b267a321179ca630eb875dc409458972') in 0.002154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 866.894552 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/_stairs.prefab
+  artifactKey: Guid(e5e911e47916cfc439e4036756e48bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/_stairs.prefab using Guid(e5e911e47916cfc439e4036756e48bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61af68f1b8c603569754969ee1a0826') in 0.163644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_run.FBX
+  artifactKey: Guid(0c1116ef11ca49949ae2cf13c23b64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_run.FBX using Guid(0c1116ef11ca49949ae2cf13c23b64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd1233d72406dc7df580e25ed881908') in 0.008345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/platform.prefab
+  artifactKey: Guid(1fec5deec75ec0747b743170f3b534ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/platform.prefab using Guid(1fec5deec75ec0747b743170f3b534ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214fb04012dc9110cf5f223666140f96') in 0.014662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_StrafeMoveset.fbx
+  artifactKey: Guid(13d2640367521314591db34597e3f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_StrafeMoveset.fbx using Guid(13d2640367521314591db34597e3f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ccf06b93d71f7a0b1898d5640d902f') in 0.036053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Icosphere.prefab
+  artifactKey: Guid(ecf8c4fb42504754cba503641e324366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Icosphere.prefab using Guid(ecf8c4fb42504754cba503641e324366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1e5d5731b1899dd522a1bf07b3a336') in 0.176262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/invector-icon.fbx
+  artifactKey: Guid(82d677cc46649fa4cb8988583aaa1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/invector-icon.fbx using Guid(82d677cc46649fa4cb8988583aaa1623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7f68d0b089556c41b0538dbea7e65c') in 0.122291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp50.prefab
+  artifactKey: Guid(0fb57ca83b7c27a438191a9159c7f6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp50.prefab using Guid(0fb57ca83b7c27a438191a9159c7f6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f98888491ce0dc8ff50dcaec0565037') in 0.015960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/Props/Weapons/Grenades/RGD5/Mesh/RGD5_LOD0.FBX
+  artifactKey: Guid(2d81ef914a71f91468a51e3a808fd474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/Props/Weapons/Grenades/RGD5/Mesh/RGD5_LOD0.FBX using Guid(2d81ef914a71f91468a51e3a808fd474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f25fa366c703a28f079fe21fe72f25c') in 0.187707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/health.fbx
+  artifactKey: Guid(33467abb1755ec142a053756c3f7f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/health.fbx using Guid(33467abb1755ec142a053756c3f7f87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a490ceb30effc6107c303ea1469ae8ad') in 0.013910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_shoot_burst.FBX
+  artifactKey: Guid(1e870252574863640bae35147029e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_shoot_burst.FBX using Guid(1e870252574863640bae35147029e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f36c69b8c01ad8c2fe252bd47b43da') in 0.005557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.prefab
+  artifactKey: Guid(782d52d115c7ce84ab933bf328e854b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.prefab using Guid(782d52d115c7ce84ab933bf328e854b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0e0c56150e13fd7e2bf42f6e9db2e4') in 0.010968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/climbUp.prefab
+  artifactKey: Guid(48f0c406a6058ef4096de43251b4dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/climbUp.prefab using Guid(48f0c406a6058ef4096de43251b4dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750b74949e40bfd77be7c2dbc2a35e79') in 0.013683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_FreeMovement.fbx
+  artifactKey: Guid(37c6cfe59f56e8a4799011397a870a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Animations/Basic_FreeMovement.fbx using Guid(37c6cfe59f56e8a4799011397a870a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d1489710539489811357a72a76d496') in 0.010939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Bottle_Mana.prefab
+  artifactKey: Guid(2cf6690298568294cb6b655c0a3aeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Bottle_Mana.prefab using Guid(2cf6690298568294cb6b655c0a3aeb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31afce076e3718a0cd946c892d45c12') in 0.267223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_idle.FBX
+  artifactKey: Guid(8632bc14172ae604f9d194e8bad443b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_idle.FBX using Guid(8632bc14172ae604f9d194e8bad443b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da09b85138904ecd2c3b837f09df20c') in 0.006115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Bottle_Health.prefab
+  artifactKey: Guid(7cafb89b5a0f61f479d0a748962abbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Bottle_Health.prefab using Guid(7cafb89b5a0f61f479d0a748962abbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6bdf01e97ea535df9175ea7e0ef3ff') in 0.013749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/sphere-health.fbx
+  artifactKey: Guid(0efea8e0c1e8eeb4688d7619f24ea10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/sphere-health.fbx using Guid(0efea8e0c1e8eeb4688d7619f24ea10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af1aa8e6a86671f2526ecc02df6a576') in 0.283513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Stairs.prefab
+  artifactKey: Guid(db0b3ea198141184fab2364e6a276864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Stairs.prefab using Guid(db0b3ea198141184fab2364e6a276864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91077c08cc8fe34aa1548f63d6b2b3a9') in 0.104311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/BoxOfPandora.prefab
+  artifactKey: Guid(efebddd0b5766bd499be8b63f581de68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/BoxOfPandora.prefab using Guid(efebddd0b5766bd499be8b63f581de68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842536a1382bb1d3578eb18e4d968828') in 0.021340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/platforms.prefab
+  artifactKey: Guid(8cd041aae7ecebf47b098dce146ad551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/platforms.prefab using Guid(8cd041aae7ecebf47b098dce146ad551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d1e9512506e8942ec94bfad1b8ec0f') in 0.010863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Bottle_Endurance.prefab
+  artifactKey: Guid(11e31a2ebb4e6e246bcf8c0ba034a031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Bottle_Endurance.prefab using Guid(11e31a2ebb4e6e246bcf8c0ba034a031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1da4d724d81dcfe17141bc83e2aa769') in 0.012542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/jumpOver.prefab
+  artifactKey: Guid(bf04e4da3dc9cf44abb84704b3405fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/jumpOver.prefab using Guid(bf04e4da3dc9cf44abb84704b3405fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6744af31eed79090544da857b8edaa4') in 0.012448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/cube.fbx
+  artifactKey: Guid(dee2cc7c00fcd6b4f90719f3660798f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/cube.fbx using Guid(dee2cc7c00fcd6b4f90719f3660798f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344c0570b94665e77343eaa3879a166b') in 0.031143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/floor.prefab
+  artifactKey: Guid(ce681f0b940baed4a92d9f6cf065313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/floor.prefab using Guid(ce681f0b940baed4a92d9f6cf065313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895dafe6ec3bf578302c1e901cc5d817') in 0.012477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp45.prefab
+  artifactKey: Guid(f5d856f1adac17240a941a3afff974aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp45.prefab using Guid(f5d856f1adac17240a941a3afff974aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfd35888a74e722bc76748d710555e1') in 0.015978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/door.prefab
+  artifactKey: Guid(3fef0d0a73e72b543b52178ed33c4ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/door.prefab using Guid(3fef0d0a73e72b543b52178ed33c4ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23cf6e1ec0f0ede8d2bcf034b98772b') in 0.115294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/Props/Weapons/Grenades/RGD5/Mesh/RGD5.FBX
+  artifactKey: Guid(af85bd807d09e1e4c8c609a9f1163153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/Props/Weapons/Grenades/RGD5/Mesh/RGD5.FBX using Guid(af85bd807d09e1e4c8c609a9f1163153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbb9fad289957942c3075c77c2a2c68') in 0.047669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/column.prefab
+  artifactKey: Guid(eefe45a07b2758447b94b0370e08d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/column.prefab using Guid(eefe45a07b2758447b94b0370e08d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1051932441f6a044d2253d5b03a62178') in 0.008409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/columnB.prefab
+  artifactKey: Guid(961d0fe6a50d8e3459a12b224216eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/columnB.prefab using Guid(961d0fe6a50d8e3459a12b224216eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c3a0e154e1cc081c0bceb09a469342') in 0.009268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_shoot.FBX
+  artifactKey: Guid(fbe889cc312e18747b32e59c6792ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/ToonSoldiers_demo/animation/assault_combat_shoot.FBX using Guid(fbe889cc312e18747b32e59c6792ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9265cddbe1ddda0524d43bc355ba5c') in 0.006269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp60.prefab
+  artifactKey: Guid(62eaa7da9556c634a844390e68bdddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/ramp60.prefab using Guid(62eaa7da9556c634a844390e68bdddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40bdab6cfabad747a85ff7444b8483') in 0.012577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Coin.prefab
+  artifactKey: Guid(5142a683d65bbf84abea6f07db9099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/3D Models/RPG Pack/Prefabs/Coin.prefab using Guid(5142a683d65bbf84abea6f07db9099c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc0528250e8eec1c1c93a0841627f44') in 0.010909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182651 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/statueBase.prefab
+  artifactKey: Guid(d51010ed245ef5041ae00a77949921df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/statueBase.prefab using Guid(d51010ed245ef5041ae00a77949921df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10b69a5f24206ec3b384364d0fa94d7') in 0.019509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/stepUp.prefab
+  artifactKey: Guid(b485a54006d31cc4589985f0b9f75dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/stepUp.prefab using Guid(b485a54006d31cc4589985f0b9f75dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c81053b0b6256484482674863826e') in 0.012926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Prefab/VBOT2.0_Custom.prefab
+  artifactKey: Guid(5563b2c1cf35cae4f8490dfea2d2aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Prefab/VBOT2.0_Custom.prefab using Guid(5563b2c1cf35cae4f8490dfea2d2aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f487f1fef03e1933c7d1b09b63a84') in 0.290041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/tunel.prefab
+  artifactKey: Guid(b2a8f296560ae6444858d484471ff353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/tunel.prefab using Guid(b2a8f296560ae6444858d484471ff353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74ecfec77cc22a4ca840cabfded3b6a') in 0.013383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/Prefabs/vThirdPersonCamera_LITE.prefab
+  artifactKey: Guid(330efb0e9eed825408809c121441b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/Prefabs/vThirdPersonCamera_LITE.prefab using Guid(330efb0e9eed825408809c121441b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cc27cb597fe30721f4d02d0aa11cb3') in 0.020574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab
+  artifactKey: Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/Prefabs/ThirdPersonController_LITE.prefab using Guid(fc9b148a2950aaf4cba8422632222c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9452de966c7b654f14eb51bd686c0418') in 0.084025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX/VBOT_LOD.fbx
+  artifactKey: Guid(340f99b8334a14c4a8a01dce6e1e5348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX/VBOT_LOD.fbx using Guid(340f99b8334a14c4a8a01dce6e1e5348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b44df35651fa53de4271ca6b0378e7') in 0.050709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.prefab
+  artifactKey: Guid(57f0e397c511a91489dcee01605a2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.prefab using Guid(57f0e397c511a91489dcee01605a2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5cc778e0a79d2ea8b8558112b52f44') in 0.010361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_big.prefab
+  artifactKey: Guid(5f5d488710276db4c9dcf0bff9769b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_big.prefab using Guid(5f5d488710276db4c9dcf0bff9769b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07207481d2b5d5e47e829a9558a57efd') in 0.011454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/support.prefab
+  artifactKey: Guid(5bb3244b3f1f9a7419e850ed4755f3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonProjectAssetsV2/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/support.prefab using Guid(5bb3244b3f1f9a7419e850ed4755f3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399f96898cc2617206f93d71ee1d1f86') in 0.008067 seconds 
