@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -22,8 +24,32 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        itemsForPlayer = new List<InventoryItem>();
+
         PopulateInventorySpawn();
+        RefreshInventoryGUI();
     }
+
+    private void RefreshInventoryGUI()
+    {
+        int buttonId = 0;
+        foreach(InventoryItem i in itemsForPlayer)
+        {
+            //load the button
+            GameObject button = itemsSelectionPanel.transform.Find("Button" + buttonId).gameObject;
+
+            //search for the child image and change it's sprite
+            button.transform.Find("Image").GetComponent<Image>().sprite = i.item.icon;
+            //change the quantity
+            button.transform.Find("Quantity").GetComponent<TextMeshProUGUI>().text = "x" + i.quantity;
+
+            buttonId += 1;
+
+        }
+
+
+    }
+
     private void PopulateInventorySpawn()
     {
         //randomly decide the number of items to create in the inventory
@@ -42,18 +68,7 @@ public class InventoryManager : MonoBehaviour
             //itemsForPlayer.Add(objInventoryItem);
 
             itemsForPlayer.Add(new InventoryItem() { item = objItem, quantity = 1 });
-
-
-
-
-
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public class InventoryItem
