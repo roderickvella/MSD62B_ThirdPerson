@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class InventoryManager : MonoBehaviour
     [Tooltip("List of Items")]
     public List<ItemScriptableObject> itemsAvailable;
 
+    [Tooltip("Selected Item Colour")]
+    public Color selectedColour;
+
+    [Tooltip("Not Selected Item Colour")]
+    public Color notSelectedColour;
+
 
     private List<InventoryItem> itemsForPlayer;
 
@@ -29,6 +36,26 @@ public class InventoryManager : MonoBehaviour
         PopulateInventorySpawn();
         RefreshInventoryGUI();
     }
+
+    private void OnEnable()
+    {
+        InputManager.KeyDown += ObservorKeyDown;
+    }
+
+    private void OnDisable()
+    {
+        InputManager.KeyDown -= ObservorKeyDown;
+    }
+
+    private void ObservorKeyDown(KeyCode key)
+    {
+        if(key == KeyCode.LeftArrow || key == KeyCode.RightArrow)
+        {
+            print("user just pressed left or right key");
+        }
+    }
+
+
 
     private void RefreshInventoryGUI()
     {
@@ -47,6 +74,13 @@ public class InventoryManager : MonoBehaviour
 
         }
 
+       //set active false redundant buttons
+       for (int i=buttonId; i < 6; i++)
+       {
+            itemsSelectionPanel.transform.Find("Button" + i).gameObject.SetActive(false);
+       }
+
+
 
     }
 
@@ -59,15 +93,24 @@ public class InventoryManager : MonoBehaviour
         {
             //pick random object from itemsAvailable
             ItemScriptableObject objItem = itemsAvailable[Random.Range(0, itemsAvailable.Count)];
+            //check whether objItem exists in itemsForPlayer. So basically we need to count how many items
+            //we've got of type objItem inside itemsForPlayer
+            int countItems = itemsForPlayer.Where(x => x.item == objItem).ToList().Count;
+            if (countItems == 0)
+            {
+                //add objItem with quantity 1 because it is the first type inside itemsForPlayer
+                itemsForPlayer.Add(new InventoryItem() { item = objItem, quantity = 1 });
+            }
+            else
+            {
+                //return the first object inside itemsForPlayer that is exactly like objItem
+                var item = itemsForPlayer.First(x => x.item == objItem);
+                //modify and increase the quantity by 1
+                item.quantity += 1;
+            }
 
-            //add this item with quantity
-            //InventoryItem objInventoryItem = new InventoryItem();
-            //objInventoryItem.item = objItem;
-            //objInventoryItem.quantity = 1;
 
-            //itemsForPlayer.Add(objInventoryItem);
-
-            itemsForPlayer.Add(new InventoryItem() { item = objItem, quantity = 1 });
+           
         }
     }
 
