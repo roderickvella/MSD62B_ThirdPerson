@@ -28,6 +28,8 @@ public class InventoryManager : MonoBehaviour
 
     private List<InventoryItem> itemsForPlayer;
 
+    public int currentSelectedIndex = 0; //by default start/select the first button
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,10 +51,52 @@ public class InventoryManager : MonoBehaviour
 
     private void ObservorKeyDown(KeyCode key)
     {
-        if(key == KeyCode.LeftArrow || key == KeyCode.RightArrow)
+        if(key == KeyCode.J || key == KeyCode.K)
         {
-            print("user just pressed left or right key");
+            ChangeSelection(key);
         }
+        else if(key == KeyCode.Return)
+        {
+            ConfirmSelection();
+        }
+    }
+
+    private void ConfirmSelection()
+    {
+        //get the item from the itemsForPlayer list using the currentSelectedIndex
+        InventoryItem inventoryItem = itemsForPlayer[currentSelectedIndex];
+        print("Item Selected is:" + inventoryItem.item.name);
+        //reduce the quantity
+        inventoryItem.quantity -= 1;
+
+        //check if the quantity is 0. if it is 0, then remove from itemsForPlayer list
+        if (inventoryItem.quantity == 0)
+            itemsForPlayer.RemoveAt(currentSelectedIndex);
+
+        RefreshInventoryGUI();
+    }
+
+    private void ChangeSelection(KeyCode key)
+    {
+        if(key == KeyCode.J)
+        {
+            currentSelectedIndex -= 1;
+        }
+        else if(key == KeyCode.K)
+        {
+            currentSelectedIndex += 1;
+        }
+
+        //check boundaries
+        if (currentSelectedIndex < 0)
+            currentSelectedIndex = 0;
+
+        if (currentSelectedIndex == itemsForPlayer.Count)
+            currentSelectedIndex = currentSelectedIndex - 1;
+
+
+
+        RefreshInventoryGUI();
     }
 
 
@@ -69,6 +113,16 @@ public class InventoryManager : MonoBehaviour
             button.transform.Find("Image").GetComponent<Image>().sprite = i.item.icon;
             //change the quantity
             button.transform.Find("Quantity").GetComponent<TextMeshProUGUI>().text = "x" + i.quantity;
+
+            if(buttonId == currentSelectedIndex)
+            {
+                button.GetComponent<Image>().color = selectedColour;
+            }
+            else
+            {
+                button.GetComponent<Image>().color = notSelectedColour;
+            }
+
 
             buttonId += 1;
 
