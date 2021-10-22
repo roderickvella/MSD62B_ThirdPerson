@@ -30,14 +30,24 @@ public class InventoryManager : MonoBehaviour
 
     public int currentSelectedIndex = 0; //by default start/select the first button
 
+    [Tooltip("Show Inventory On GUI")]
+    public bool showInventory = false;
+
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
+        //load the controller so that we can play the animations (inventoryIn/inventoryOut)
+        animator = itemsSelectionPanel.GetComponent<Animator>();
+
         itemsForPlayer = new List<InventoryItem>();
 
         PopulateInventorySpawn();
         RefreshInventoryGUI();
     }
+
+
 
     private void OnEnable()
     {
@@ -58,6 +68,20 @@ public class InventoryManager : MonoBehaviour
         else if(key == KeyCode.Return)
         {
             ConfirmSelection();
+        }
+    }
+
+    public void ShowToggleInventory()
+    {
+        if (showInventory == false)
+        {
+            showInventory = true;
+            animator.SetTrigger("InventoryIn");
+        }
+        else
+        {
+            showInventory = false;
+            animator.SetTrigger("InventoryOut");
         }
     }
 
