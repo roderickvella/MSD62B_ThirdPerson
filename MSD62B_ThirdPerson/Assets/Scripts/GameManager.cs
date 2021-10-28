@@ -6,10 +6,14 @@ public class GameManager : MonoBehaviour
 {
     public static GameObject Canvas;
 
+    public GameObject PandoraBoxPrefab;
+    public List<Vector3> PandoraSpawnPositions;
+
     // Start is called before the first frame update
     void Start()
     {
         Canvas = GameObject.Find("Canvas");
+        SpawnPandoraBoxes();
     }
 
     private void OnEnable()
@@ -27,6 +31,17 @@ public class GameManager : MonoBehaviour
         if(key == KeyCode.Tab)
         {
             ShowToggleInventory();
+        }
+    }
+
+    private void SpawnPandoraBoxes()
+    {
+        GameObject pandoraBoxesParent = GameObject.Find("PandoraBoxes");
+
+        for(int i=0; i < PandoraSpawnPositions.Count; i++)
+        {
+            GameObject spawnedBox = Instantiate(PandoraBoxPrefab, PandoraSpawnPositions[i], Quaternion.identity);
+            spawnedBox.transform.parent = pandoraBoxesParent.transform;
         }
     }
 
