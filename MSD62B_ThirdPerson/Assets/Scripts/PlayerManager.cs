@@ -6,10 +6,14 @@ public class PlayerManager : MonoBehaviour
 {
     private GameObject nextToBox;
 
+    private Animator animator;
+
+    public GameObject Camera2;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,6 +38,29 @@ public class PlayerManager : MonoBehaviour
         {
             DestroyBox();
         }
+        else if (keyCode == KeyCode.F)
+        {
+            StartShooting();
+        }
+    }
+
+    private void StartShooting()
+    {
+        //trigger shooting animation
+        animator.SetTrigger("WeaponShoot");
+
+        //enable the second camera
+        Camera2.SetActive(true);
+
+        //Start Timer
+        StartCoroutine(IStopShooting());
+    }
+
+    IEnumerator IStopShooting()
+    {
+        //wait for 5seconds
+        yield return new WaitForSeconds(5f);
+        Camera2.SetActive(false);
     }
 
     private void DestroyBox()
