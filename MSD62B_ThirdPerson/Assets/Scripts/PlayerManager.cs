@@ -10,6 +10,10 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject Camera2;
 
+    //projectile
+    public GameObject projectile;
+    public Transform projectileSpawnSpot; //weapon container
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +58,15 @@ public class PlayerManager : MonoBehaviour
 
         //Start Timer
         StartCoroutine(IStopShooting());
+
+        //Launch Grenade
+        StartCoroutine(Launch());
+    }
+
+    IEnumerator Launch()
+    {
+        yield return new WaitForSeconds(2.3f);
+        Instantiate(projectile, projectileSpawnSpot.position, projectileSpawnSpot.rotation, gameObject.transform);
     }
 
     IEnumerator IStopShooting()
